@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Services</title>
+
+    <script>
+        function connectWiFi() {
+            window.location.href = "WIFI:T:WPA;S:CHRO;P:basecamp@2024!;;";
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url("https://media.istockphoto.com/id/1619281875/photo/black-and-white-portrait-of-a-sitting-male-lion-close-up.jpg?s=1024x1024&w=is&k=20&c=A8r_4DHUJw0DG5u8gegeuho_-CvEaYv1LB2hQfzD2L0=");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 300px;
+            margin: auto;
+            padding: 40px;
+            background: rgba(210, 207, 207, 0.9);
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+            background: #007bff;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: rgb(205, 21, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to Saruni Basecamp</h2>
+        <button class="btn" onclick="connectWiFi()">Connect to Wi-Fi</button>
+        <a class="btn" href="menu.jpg" target="_blank">View Our Menu</a>
+        <a class="btn" href="Feedback Portal" target="_blank">Give Feedback</a>
+    </div>
+</body>
+</html>
